@@ -1,8 +1,28 @@
-# React + Vite
+# Quizzicle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Quizzicle** is a fun and interactive quiz application built with React and Vite. It fetches trivia questions from the [Open Trivia Database API](https://opentdb.com/) and allows users to test their knowledge. Users can select answers to multiple-choice questions, check their results, and restart the game for a fresh set of questions.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the repository**:
+   ```bash
+   git https://github.com/famesy/quizzicle
+   cd quizicle
+   ```
+2. **Install dependencies:**:
+   ```bash
+   git https://github.com/famesy/quizzicle
+   cd quizicle
+   ```
+3. **Start the development server:**
+   ```bash
+    npm run dev
+   ```
+4. **Build the project for production:**
+   ```bash
+    npm run build
+   ```
+5. Preview the production build:
+   ```bash
+    npm run preview
+   ```
