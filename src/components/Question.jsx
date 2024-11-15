@@ -35,7 +35,7 @@ const Question = (props) => {
           formattedTrivia.push({
             question: he.decode(trivia.question),
             answers: answers,
-            correct_answer: trivia.correct_answer,
+            correct_answer: he.decode(trivia.correct_answer),
             selected_answer: null,
           });
         });
